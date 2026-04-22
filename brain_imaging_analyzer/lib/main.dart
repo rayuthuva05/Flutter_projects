@@ -3,7 +3,11 @@ import 'package:brain_imaging_analyzer/screens/run_new_data.dart';
 import 'package:flutter/material.dart';
 import 'package:window_manager/window_manager.dart';
 
+<<<<<<< HEAD
 Future<void> main() async {
+=======
+void main() async {
+>>>>>>> 4fe9b627cc471e3e9c120fdf4cd682c39974949e
   WidgetsFlutterBinding.ensureInitialized();
   await windowManager.ensureInitialized();
 

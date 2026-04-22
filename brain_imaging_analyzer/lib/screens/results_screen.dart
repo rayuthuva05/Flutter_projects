@@ -39,7 +39,10 @@ class _ResultsPageState extends State<ResultsPage> {
     return CustomScrollView(
       slivers: [
         SliverAppBar(
+<<<<<<< HEAD
           pinned: true,
+=======
+>>>>>>> 4fe9b627cc471e3e9c120fdf4cd682c39974949e
           expandedHeight: 50,
           title: Text(
             'Output of new data',
@@ -48,6 +51,7 @@ class _ResultsPageState extends State<ResultsPage> {
           backgroundColor: Colors.grey[350],
           foregroundColor: const Color.fromARGB(255, 37, 9, 113),
           actions: [
+<<<<<<< HEAD
             Row(
               children: [
                 SizedBox(
@@ -77,13 +81,25 @@ class _ResultsPageState extends State<ResultsPage> {
             )
           ],
           actionsPadding: EdgeInsetsGeometry.symmetric(vertical: 10),
+=======
+            TextButton.icon(
+              onPressed: () {},
+              label: Text('Sort', style: TextStyle(color: Colors.white)),
+              icon: Icon(Icons.sort_sharp, color: Colors.white),
+            ),
+          ],
+>>>>>>> 4fe9b627cc471e3e9c120fdf4cd682c39974949e
         ),
         SliverGrid.count(
           crossAxisCount: 4,
           childAspectRatio: 2,
           crossAxisSpacing: 10,
           mainAxisSpacing: 10,
+<<<<<<< HEAD
           children: List.generate(60, (index) {
+=======
+          children: List.generate(16, (index) {
+>>>>>>> 4fe9b627cc471e3e9c120fdf4cd682c39974949e
             int count = 4;
             int row = index ~/ count;
             int col = index % count;
