@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "303622359371",
+    "project_id": "brain-imaging-project-1",
+    "storage_bucket": "brain-imaging-project-1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303622359371:android:3a534a7e840a097b54c0ce",
+        "android_client_info": {
+          "package_name": "com.example.brain_imaging_analyzer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfwKXD-4YoO9iwUvFitKmRHkfox7_pFZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

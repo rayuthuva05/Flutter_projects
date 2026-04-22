@@ -1,0 +1,54 @@
+name: telnyx_flutter_webrtc
+description: Telnyx's Dart and Flutter based WebRTC solution
+
+publish_to: 'none'
+version: 2.2.0
+
+environment:
+  sdk: ">=3.0.0 <3.22.3"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_messaging: ^15.2.5
+  firebase_core: ^3.13.0
+  flutter_callkit_incoming: ^2.5.8
+  flutter_local_notifications: ^19.1.0
+  shared_preferences: ^2.2.3
+  permission_handler: ^11.3.1
+  connectivity_plus: ^6.1.0
+  path_provider: ^2.1.5
+  provider: ^6.1.2
+  flutter_svg: ^2.0.17
+  fluttertoast: ^8.2.11
+  logger: ^2.5.0
+  intl: ^0.19.0
+  image_picker: ^1.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  patrol: ^3.14.0
+  telnyx_webrtc:
+    path: ./packages/telnyx_webrtc
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audio/incoming_call.mp3
+    - assets/audio/ringback_tone.mp3
+    - assets/launcher.png
+    - assets/images/
+    - assets/icons/
+    - pubspec.yaml
+    - packages/telnyx_webrtc/pubspec.yaml
+
+patrol:
+  app_name: Telnyx Flutter WebRTC
+  android:
+    package_name: com.telnyx.telnyx_flutter_webrtc
